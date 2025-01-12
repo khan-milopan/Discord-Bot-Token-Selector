@@ -1,5 +1,5 @@
 # Discord Bot Token Selector
-Created by [Milopan](https://github.com/khan-milopan) with teeny-tiny help from [TheGamer29](https://github.com/jacopicic).
+Created by [Milopan](https://github.com/khan-milopan) with teeny-tiny help from [TheGamer29](https://github.com/lowtiercompsci).
 
 This Python script reads the contents of `botTokens.json` containing the names and tokens of your Discord bots, after which it asks you which one you wanna choose and it returns the token of the bot that you chose.
 
