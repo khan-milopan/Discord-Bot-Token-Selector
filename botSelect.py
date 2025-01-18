@@ -63,5 +63,5 @@ def select():
             except ValueError:
                 print(error)
 
-# By Milopan (and TheGamer29/jacopicic)
+# By Milopan
 # https://github.com/khan-milopan/Discord-Bot-Token-Selector
