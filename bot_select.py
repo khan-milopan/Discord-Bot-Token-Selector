@@ -43,7 +43,7 @@ def select(force:bool=False, which_bot:int=-1):
         except FileNotFoundError:
             with open("bot_tokens.json", "w") as bot_tokens_file:
                 json.dump(default_json, bot_tokens_file, indent=4)
-                raise SystemExit('"botTokens.json" file was created. Please place your tokens in there and try again.')
+                raise SystemExit('"bot_tokens.json" file was created. Please place your tokens in there and try again.')
                 
     bot_name = [list(obj.keys())[0] for obj in raw_tokens]
     bot_token = [list(obj.values())[0] for obj in raw_tokens]
